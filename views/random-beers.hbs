@@ -2,7 +2,7 @@
   <ul class="beer-list">
     {{#each randomBeer}}
     <img class="random-image" height='70px' src={{this.image_url}}>
-    {{> beerpartial this}}
+    {{> beerPartials this}}
     <li>{{brewers_tips}}</li>
     <li>{{food_pairing}}</li>
     {{/each}}

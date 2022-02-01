@@ -1,8 +1,8 @@
 
 <div class="beer-list-rows">
-  {{#each beer}}<div class="each-beer">
+  {{#each beers}}<div class="each-beer">
     <img height='70px' src={{this.image_url}}>
-    {{> beerpartial this}}
+    {{> beerPartials this}}
   </div>
   {{/each}}
 
