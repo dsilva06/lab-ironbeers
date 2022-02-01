@@ -1,0 +1,9 @@
+
+<div class="beer-list-rows">
+  {{#each beer}}<div class="each-beer">
+    <img height='70px' src={{this.image_url}}>
+    {{> beerpartial this}}
+  </div>
+  {{/each}}
+
+</div>
